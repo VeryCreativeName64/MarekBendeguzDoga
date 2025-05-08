@@ -11,7 +11,7 @@ export default class TesztKerdesek {
 
     peldanyosit(){
         for (let index = 0; index < szenvedoMondatok.length; index++) {
-            new TesztKerdes(this.#lista,".tarolo");
+            new TesztKerdes(this.#lista[index], this.#szElem, index);
         }
     }
 }
